@@ -58,16 +58,16 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 ## Outstanding Legacy
 
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript |
-| 🏆 | [laravel-route-blocker](https://github.com/skydiver/laravel-route-blocker) | Block routes by IP | PHP |
-| 🏆 | [nextjs-semantic](https://github.com/skydiver/nextjs-semantic) | Next.js + Fomantic-UI + Styled Components | JavaScript |
-| 🏆 | [october-plugin-forms](https://github.com/skydiver/october-plugin-forms) | Create easy (and almost magic) AJAX forms | PHP |
-| 🏆 | [laravel-materialize-css](https://github.com/skydiver/laravel-materialize-css) | Materialize CSS Framework for Laravel 5  | PHP |
-| 🏆 | [wn-forms-plugin](https://github.com/skydiver/wn-forms-plugin) | Create easy (and almost magic) forms | PHP |
-| 🏆 | [nuxt-tailwind-admin](https://github.com/skydiver/nuxt-tailwind-admin) | Nuxt.js + Tailwind CSS Admin starter | Vue |
-| 🏆 | [vilt-stack](https://github.com/skydiver/vilt-stack) | Vue.js + Inertia.js + Laravel + Tailwind CSS | PHP |
+| | Project | Description | Language | ⭐ |
+|---|---------|-------------|----------|---:|
+| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript | 282 |
+| 🏆 | [laravel-route-blocker](https://github.com/skydiver/laravel-route-blocker) | Block routes by IP | PHP | 81 |
+| 🏆 | [nextjs-semantic](https://github.com/skydiver/nextjs-semantic) | Next.js + Fomantic-UI + Styled Components | JavaScript | 67 |
+| 🏆 | [october-plugin-forms](https://github.com/skydiver/october-plugin-forms) | Create easy (and almost magic) AJAX forms | PHP | 60 |
+| 🏆 | [laravel-materialize-css](https://github.com/skydiver/laravel-materialize-css) | Materialize CSS Framework for Laravel 5  | PHP | 45 |
+| 🏆 | [wn-forms-plugin](https://github.com/skydiver/wn-forms-plugin) | Create easy (and almost magic) forms | PHP | 21 |
+| 🏆 | [nuxt-tailwind-admin](https://github.com/skydiver/nuxt-tailwind-admin) | Nuxt.js + Tailwind CSS Admin starter | Vue | 18 |
+| 🏆 | [vilt-stack](https://github.com/skydiver/vilt-stack) | Vue.js + Inertia.js + Laravel + Tailwind CSS | PHP | 13 |
 
 ---
 

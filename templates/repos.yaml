@@ -45,6 +45,7 @@ categories:
 
   - name: Outstanding Legacy
     emoji: '🏆'
+    showStars: true
     repos:
       - ewelink-api
       - laravel-route-blocker
