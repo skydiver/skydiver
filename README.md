@@ -12,22 +12,17 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
-| 🔧 | [freshly](https://github.com/skydiver/freshly) | A fast, terminal-based update checker for macOS applications | Rust |
-| 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
 | 🔧 | [typescript-starter](https://github.com/skydiver/typescript-starter) | A clean and modern setup for blazing-fast TypeScript development. | TypeScript |
+| 🔧 | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
+| 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
 
 ## CLI Tools
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
+| 💻 | [freshly](https://github.com/skydiver/freshly) | A fast, terminal-based update checker for macOS applications | Rust |
 | 💻 | [androidtv-remote-cli](https://github.com/skydiver/androidtv-remote-cli) | Android TV remote control CLI | TypeScript |
 | 💻 | [downloadstation-cli](https://github.com/skydiver/downloadstation-cli) | Manage your Synology Download Station from your terminal | JavaScript |
-
-## Desktop Apps
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🖥️ | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
 
 ## Claude Code Ecosystem
 

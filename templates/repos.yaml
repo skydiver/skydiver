@@ -4,20 +4,16 @@ categories:
   - name: Developer Tools
     emoji: '🔧'
     repos:
-      - freshly
-      - db-restore
       - typescript-starter
+      - mermaidjs-desktop-client
+      - db-restore
 
   - name: CLI Tools
     emoji: '💻'
     repos:
+      - freshly
       - androidtv-remote-cli
       - downloadstation-cli
-
-  - name: Desktop Apps
-    emoji: '🖥️'
-    repos:
-      - mermaidjs-desktop-client
 
   - name: Claude Code Ecosystem
     emoji: '🤖'
