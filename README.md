@@ -43,14 +43,9 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | | Project | Description | Language |
 |---|---------|-------------|----------|
 | 🎩 | [alfred-browsers-profiles](https://github.com/skydiver/alfred-browsers-profiles) | Open your browsers profiles from Alfred | Python |
-| 🎩 | [alfred-setapp](https://github.com/skydiver/alfred-setapp) | Search Setapp apps | JavaScript |
-| 🎩 | [alfred-network-drives](https://github.com/skydiver/alfred-network-drives) | List your mounted network drives | Python |
-| 🎩 | [alfred-chrome-profiles](https://github.com/skydiver/alfred-chrome-profiles) | Open your Google Chrome or Canary profiles from Alfred | Python |
-| 🎩 | [alfred-vercel](https://github.com/skydiver/alfred-vercel) | Quick access your Vercel projects from Alfred | Python |
 | 🎩 | [alfred-nextjs-docs](https://github.com/skydiver/alfred-nextjs-docs) | Quick access to Next.js docs site | Python |
 | 🎩 | [alfred-tower](https://github.com/skydiver/alfred-tower) | Access your Tower repositories from Alfred | JavaScript |
 | 🎩 | [alfred-pretty-sql](https://github.com/skydiver/alfred-pretty-sql) | Format and paste SQL on clipboard | JavaScript |
-| 🎩 | [alfred-password-generator](https://github.com/skydiver/alfred-password-generator) | Generate random passwords for Alfred | JavaScript |
 | 🎩 | [alfred-workflows](https://github.com/skydiver/alfred-workflows) | A collection of my personally crafted Alfred workflows, designed to streamline productivity and automate everyday tasks with efficiency and precision. | TypeScript |
 | 🎩 | [raycast-browsers-profiles](https://github.com/skydiver/raycast-browsers-profiles) | Access your browsers profiles from Raycast | TypeScript |
 
@@ -59,11 +54,12 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | | Project | Description | Language |
 |---|---------|-------------|----------|
 | 📦 | [newton-cache](https://github.com/skydiver/newton-cache) | Lightweight cache library with pluggable adapters. Zero dependencies, TTL support, TypeScript-first | TypeScript |
-| 📦 | [obsidian-image-grid](https://github.com/skydiver/obsidian-image-grid) | Obsidian plugin that renders images in a CSS grid layout | TypeScript |
-| 📦 | [javascript-helpers](https://github.com/skydiver/javascript-helpers) | A place to share my JavaScript helpers | JavaScript |
-| 📦 | [faunadb-wrap](https://github.com/skydiver/faunadb-wrap) | Another Node.js wrapper to interact with FaunaDB | TypeScript |
-| 📦 | [nodebb-plugin-code-autologin](https://github.com/skydiver/nodebb-plugin-code-autologin) | Autologin for NodeBB validating a code with an endpoint | JavaScript |
-| 📦 | [firestore-import](https://github.com/skydiver/firestore-import) | Import your data to Firebase Firestore | JavaScript |
+
+## Plugins & Extensions
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 🔌 | [obsidian-image-grid](https://github.com/skydiver/obsidian-image-grid) | Obsidian plugin that renders images in a CSS grid layout | TypeScript |
 
 ## Outstanding Legacy
 
@@ -132,6 +128,12 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🐳 | [docker-shipyard-demo](https://github.com/skydiver/docker-shipyard-demo) | Docker + Shipyard | (c) |  |
 | 🐳 | [vagrant-dev-machine](https://github.com/skydiver/vagrant-dev-machine) | Just a Vagrant development machine |  |
 | 🐳 | [codespaces-demo](https://github.com/skydiver/codespaces-demo) | GitHub Codespaces Playground |  |
+
+## Misc
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 📦 | [nodebb-plugin-code-autologin](https://github.com/skydiver/nodebb-plugin-code-autologin) | Autologin for NodeBB validating a code with an endpoint | JavaScript |
 
 ---
 

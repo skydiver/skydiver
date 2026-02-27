@@ -31,14 +31,9 @@ categories:
     emoji: '🎩'
     repos:
       - alfred-browsers-profiles
-      - alfred-setapp
-      - alfred-network-drives
-      - alfred-chrome-profiles
-      - alfred-vercel
       - alfred-nextjs-docs
       - alfred-tower
       - alfred-pretty-sql
-      - alfred-password-generator
       - alfred-workflows
       - raycast-browsers-profiles
 
@@ -46,11 +41,11 @@ categories:
     emoji: '📦'
     repos:
       - newton-cache
+
+  - name: Plugins & Extensions
+    emoji: '🔌'
+    repos:
       - obsidian-image-grid
-      - javascript-helpers
-      - faunadb-wrap
-      - nodebb-plugin-code-autologin
-      - firestore-import
 
   - name: Outstanding Legacy
     emoji: '🏆'
@@ -64,6 +59,62 @@ categories:
       - nuxt-tailwind-admin
       - vilt-stack
 
+  - name: Web Starters & Templates
+    emoji: '🌐'
+    repos:
+      - vue-tailwind-components
+      - telegram-express-bot
+      - nextjs-paypal-integration
+      - nuxt-electron
+      - nextjs-typescript-starter
+      - nextjs-mailgun-uploads
+      - node-cli-template
+      - next-tailwindcss
+      - nuxt-coreui
+      - api-jwt-demo
+      - node-starter-template
+      - node-starter
+      - nuxt-semantic-starter
+      - cloudflare-worker-example
+      - remix-typescript-starter
+      - nextjs-jotai-demo
+      - nextjs-upload-csv
+      - preset-cypress
+      - preset-nextjs
+      - preset-nodejs
+      - vue-tailwindcss-components
+      - nextjs-electron
+      - nuxt-tailwind-dashboard
+      - react-custom-starter
+      - react-context-api
+      - now-telegram-bot
+      - nuxt-bulma-admin
+      - gatsby-starter
+      - now-mailgun-sender
+      - demo-chrome-facedetector
+      - react-dashboard-core
+      - firebase-connect-demo
+      - netlify-lambda-demo
+      - node-react-starter-template
+      - react-starter-template
+      - demo-jest-nock
+
+  - name: Docker & Infrastructure
+    emoji: '🐳'
+    repos:
+      - docker-compose-lamp
+      - docker-compose-laravel
+      - docker-compose-laravel2
+      - docker-compose-lamp-multi-php
+      - docker-node-pm2
+      - docker-varnish-demo
+      - docker-shipyard-demo
+      - vagrant-dev-machine
+      - codespaces-demo
+
+  ################################################################################
+  # Hall of Fame section
+  ################################################################################
   - name: Laravel Ecosystem
     emoji: '🔴'
     collapsed: true
@@ -121,71 +172,45 @@ categories:
       - october-theme-materialize-parallax
       - docker-octobercms
 
-  - name: Web Starters & Templates
-    emoji: '🌐'
+  - name: Misc
+    emoji: '📦'
     repos:
-      - vue-tailwind-components
-      - telegram-express-bot
-      - nextjs-paypal-integration
-      - nuxt-electron
-      - nextjs-typescript-starter
-      - nextjs-mailgun-uploads
-      - node-cli-template
-      - next-tailwindcss
-      - nuxt-coreui
-      - api-jwt-demo
-      - node-starter-template
-      - node-starter
-      - nuxt-semantic-starter
-      - cloudflare-worker-example
-      - remix-typescript-starter
-      - nextjs-jotai-demo
-      - nextjs-upload-csv
-      - preset-cypress
-      - preset-nextjs
-      - preset-nodejs
-      - vue-tailwindcss-components
-      - nextjs-electron
-      - nuxt-tailwind-dashboard
-      - react-custom-starter
-      - react-context-api
-      - now-telegram-bot
-      - nuxt-bulma-admin
-      - gatsby-starter
-      - now-mailgun-sender
-      - demo-chrome-facedetector
-      - react-dashboard-core
-      - firebase-connect-demo
-      - netlify-lambda-demo
-      - node-react-starter-template
-      - react-starter-template
-      - demo-jest-nock
+      - nodebb-plugin-code-autologin
 
-  - name: Docker & Infrastructure
-    emoji: '🐳'
-    repos:
-      - docker-compose-lamp
-      - docker-compose-laravel
-      - docker-compose-laravel2
-      - docker-compose-lamp-multi-php
-      - docker-node-pm2
-      - docker-varnish-demo
-      - docker-shipyard-demo
-      - vagrant-dev-machine
-      - codespaces-demo
-
+  ################################################################################
+  # This category is for repositories that haven't been categorized yet.
+  # It serves as a temporary holding place for new projects or those that
+  # don't fit into any existing category.
+  #
+  # The "Uncategorized" category helps ensure that all repositories are
+  # accounted for, even if they haven't been organized into a specific
+  # category yet.
+  ################################################################################
   - name: Uncategorized
     emoji: '❓'
-    repos:
-      - test-repo
+    repos: []
 
+  ################################################################################
+  # This category is hidden and contains repos that are either archived,
+  # deprecated, or not relevant anymore. It serves as a way to keep the main
+  # categories clean while still preserving the history of these projects.
+  ################################################################################
   - name: Hidden
     hidden: true
     emoji: '🚫'
     repos:
+      - test-repo
       - CodeAnywhere-Desktop
       - btt-helper
       - software-vault-2
       - 2fa-cli
       - uptime-robot-cli
       - vercel-deployments-cleanup
+      - alfred-setapp
+      - alfred-network-drives
+      - alfred-chrome-profiles
+      - alfred-vercel
+      - alfred-password-generator
+      - javascript-helpers
+      - faunadb-wrap
+      - firestore-import
