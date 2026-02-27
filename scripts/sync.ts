@@ -18,6 +18,7 @@ interface Category {
   repos: string[];
   collapsed?: boolean;
   hidden?: boolean;
+  showStars?: boolean;
 }
 
 const EXCLUDED_CATEGORIES = ["Uncategorized"];
@@ -30,6 +31,7 @@ interface Config {
 interface RepoMeta {
   description: string;
   language: string;
+  stars: number;
 }
 
 const ROOT = new URL("..", import.meta.url).pathname;
@@ -39,7 +41,7 @@ const OUTPUT_PATH = `${ROOT}README.md`;
 
 async function fetchRepoMetadata(): Promise<Map<string, RepoMeta>> {
   const cmd = new Deno.Command("gh", {
-    args: ["repo", "list", "--limit", "500", "--json", "name,description,primaryLanguage,isPrivate,isFork"],
+    args: ["repo", "list", "--limit", "500", "--json", "name,description,primaryLanguage,isPrivate,isFork,stargazerCount"],
     stdout: "piped",
   });
 
@@ -53,6 +55,7 @@ async function fetchRepoMetadata(): Promise<Map<string, RepoMeta>> {
       description: (repo.description as string) ?? "",
       language:
         (repo.primaryLanguage as { name: string } | null)?.name ?? "",
+      stars: (repo.stargazerCount as number) ?? 0,
     });
   }
   return map;
@@ -64,21 +67,27 @@ function generateTable(
   metadata: Map<string, RepoMeta>,
   headingLevel: string
 ): string {
-  const lines: string[] = [
-    `${headingLevel} ${category.name}`,
-    "",
-    "| | Project | Description | Language |",
-    "|---|---------|-------------|----------|",
-  ];
+  const stars = category.showStars;
+
+  const header = stars
+    ? "| | Project | Description | Language | ⭐ |"
+    : "| | Project | Description | Language |";
+
+  const separator = stars
+    ? "|---|---------|-------------|----------|---:|"
+    : "|---|---------|-------------|----------|";
+
+  const lines: string[] = [`${headingLevel} ${category.name}`, "", header, separator];
 
   for (const repo of category.repos) {
     const meta = metadata.get(repo);
     const description = meta?.description ?? "";
     const language = meta?.language ?? "";
     const url = `https://github.com/${owner}/${repo}`;
-    lines.push(
-      `| ${category.emoji} | [${repo}](${url}) | ${description} | ${language} |`
-    );
+    const row = stars
+      ? `| ${category.emoji} | [${repo}](${url}) | ${description} | ${language} | ${meta?.stars ?? 0} |`
+      : `| ${category.emoji} | [${repo}](${url}) | ${description} | ${language} |`;
+    lines.push(row);
   }
 
   return lines.join("\n");
