@@ -8,27 +8,26 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 ---
 
+## Developer Tools
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 🔧 | [freshly](https://github.com/skydiver/freshly) | A fast, terminal-based update checker for macOS applications | Rust |
+| 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
+| 🔧 | [typescript-starter](https://github.com/skydiver/typescript-starter) | A clean and modern setup for blazing-fast TypeScript development. | TypeScript |
+
+## CLI Tools
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 💻 | [androidtv-remote-cli](https://github.com/skydiver/androidtv-remote-cli) | Android TV remote control CLI | TypeScript |
+| 💻 | [downloadstation-cli](https://github.com/skydiver/downloadstation-cli) | Manage your Synology Download Station from your terminal | JavaScript |
+
 ## Desktop Apps
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
 | 🖥️ | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
-| 🖥️ | [CodeAnywhere-Desktop](https://github.com/skydiver/CodeAnywhere-Desktop) | CodeAnywhere desktop client | JavaScript |
-
-## Developer Tools & CLIs
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🔧 | [downloadstation-cli](https://github.com/skydiver/downloadstation-cli) | Manage your Synology Download Station from your terminal | JavaScript |
-| 🔧 | [btt-helper](https://github.com/skydiver/btt-helper) | Helpers to improve your BetterTouchTool presets" | JavaScript |
-| 🔧 | [androidtv-remote-cli](https://github.com/skydiver/androidtv-remote-cli) | Android TV remote control CLI | TypeScript |
-| 🔧 | [freshly](https://github.com/skydiver/freshly) | A fast, terminal-based update checker for macOS applications | Rust |
-| 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
-| 🔧 | [typescript-starter](https://github.com/skydiver/typescript-starter) | A clean and modern setup for blazing-fast TypeScript development. | TypeScript |
-| 🔧 | [software-vault-2](https://github.com/skydiver/software-vault-2) | Manage your software serial keys | JavaScript |
-| 🔧 | [2fa-cli](https://github.com/skydiver/2fa-cli) | Generate 2FA tokens from command line | JavaScript |
-| 🔧 | [uptime-robot-cli](https://github.com/skydiver/uptime-robot-cli) | A command line client for Uptime Robot | JavaScript |
-| 🔧 | [vercel-deployments-cleanup](https://github.com/skydiver/vercel-deployments-cleanup) |  | JavaScript |
 
 ## Claude Code Ecosystem
 

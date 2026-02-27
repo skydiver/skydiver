@@ -1,28 +1,26 @@
 owner: skydiver
 
 categories:
-  - name: Desktop Apps
-    emoji: "🖥️"
+  - name: Developer Tools
+    emoji: '🔧'
     repos:
-      - mermaidjs-desktop-client
-      - CodeAnywhere-Desktop
-
-  - name: Developer Tools & CLIs
-    emoji: "🔧"
-    repos:
-      - downloadstation-cli
-      - btt-helper
-      - androidtv-remote-cli
       - freshly
       - db-restore
       - typescript-starter
-      - software-vault-2
-      - 2fa-cli
-      - uptime-robot-cli
-      - vercel-deployments-cleanup
+
+  - name: CLI Tools
+    emoji: '💻'
+    repos:
+      - androidtv-remote-cli
+      - downloadstation-cli
+
+  - name: Desktop Apps
+    emoji: '🖥️'
+    repos:
+      - mermaidjs-desktop-client
 
   - name: Claude Code Ecosystem
-    emoji: "🤖"
+    emoji: '🤖'
     repos:
       - claude-code-project-mover
       - claude-plans-organizer
@@ -30,7 +28,7 @@ categories:
       - claude-code-statusline
 
   - name: Alfred & Raycast Workflows
-    emoji: "🎩"
+    emoji: '🎩'
     repos:
       - alfred-browsers-profiles
       - alfred-setapp
@@ -45,7 +43,7 @@ categories:
       - raycast-browsers-profiles
 
   - name: Libraries & Packages
-    emoji: "📦"
+    emoji: '📦'
     repos:
       - newton-cache
       - obsidian-image-grid
@@ -55,7 +53,7 @@ categories:
       - firestore-import
 
   - name: Outstanding Legacy
-    emoji: "🏆"
+    emoji: '🏆'
     repos:
       - ewelink-api
       - laravel-route-blocker
@@ -67,7 +65,7 @@ categories:
       - vilt-stack
 
   - name: Laravel Ecosystem
-    emoji: "🔴"
+    emoji: '🔴'
     collapsed: true
     repos:
       - laravel-fortify-demo
@@ -85,7 +83,7 @@ categories:
       - laravel-composer
 
   - name: OctoberCMS & WinterCMS
-    emoji: "🍂"
+    emoji: '🍂'
     collapsed: true
     repos:
       - october-plugin-ssologin
@@ -124,7 +122,7 @@ categories:
       - docker-octobercms
 
   - name: Web Starters & Templates
-    emoji: "🌐"
+    emoji: '🌐'
     repos:
       - vue-tailwind-components
       - telegram-express-bot
@@ -164,7 +162,7 @@ categories:
       - demo-jest-nock
 
   - name: Docker & Infrastructure
-    emoji: "🐳"
+    emoji: '🐳'
     repos:
       - docker-compose-lamp
       - docker-compose-laravel
@@ -177,11 +175,17 @@ categories:
       - codespaces-demo
 
   - name: Uncategorized
-    emoji: "❓"
+    emoji: '❓'
     repos:
       - test-repo
 
   - name: Hidden
     hidden: true
-    emoji: "🚫"
-    repos: []
+    emoji: '🚫'
+    repos:
+      - CodeAnywhere-Desktop
+      - btt-helper
+      - software-vault-2
+      - 2fa-cli
+      - uptime-robot-cli
+      - vercel-deployments-cleanup
