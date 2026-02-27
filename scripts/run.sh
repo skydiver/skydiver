@@ -17,7 +17,7 @@ case "$choice" in
     deno run --allow-run --allow-read --allow-write scripts/sync.ts
     ;;
   3)
-    git add README.md
+    git add README.md templates/repos.yaml
     git commit -m "Sync README.md"
     ;;
   *)

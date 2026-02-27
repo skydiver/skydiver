@@ -1,13 +1,17 @@
 owner: skydiver
 
 categories:
+  - name: Desktop Apps
+    emoji: "🖥️"
+    repos:
+      - mermaidjs-desktop-client
+      - CodeAnywhere-Desktop
+
   - name: Developer Tools & CLIs
     emoji: "🔧"
     repos:
-      - mermaidjs-desktop-client
       - downloadstation-cli
       - btt-helper
-      - CodeAnywhere-Desktop
       - androidtv-remote-cli
       - freshly
       - db-restore
