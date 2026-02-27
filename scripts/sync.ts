@@ -17,7 +17,10 @@ interface Category {
   emoji: string;
   repos: string[];
   collapsed?: boolean;
+  hidden?: boolean;
 }
+
+const EXCLUDED_CATEGORIES = ["Uncategorized"];
 
 interface Config {
   owner: string;
@@ -102,8 +105,11 @@ async function main() {
     }
   }
 
-  const normal = config.categories.filter((c) => !c.collapsed);
-  const collapsed = config.categories.filter((c) => c.collapsed);
+  const visible = config.categories.filter(
+    (c) => !c.hidden && !EXCLUDED_CATEGORIES.includes(c.name)
+  );
+  const normal = visible.filter((c) => !c.collapsed);
+  const collapsed = visible.filter((c) => c.collapsed);
 
   const reposContent = normal
     .map((c) => generateTable(c, config.owner, metadata, "##"))

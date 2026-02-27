@@ -176,3 +176,8 @@ categories:
     emoji: "❓"
     repos:
       - test-repo
+
+  - name: Hidden
+    hidden: true
+    emoji: "🚫"
+    repos: []
