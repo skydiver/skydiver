@@ -7,7 +7,7 @@
  * Usage: deno run --allow-run --allow-read --allow-write scripts/pull.ts
  */
 
-import { parse, stringify } from "https://deno.land/std@0.224.0/yaml/mod.ts";
+import { parse } from "https://deno.land/std@0.224.0/yaml/mod.ts";
 
 interface Category {
   name: string;
@@ -54,22 +54,27 @@ async function main() {
     console.log(`  + ${name}`);
   }
 
-  let uncategorized = config.categories.find(
-    (c) => c.name === UNCATEGORIZED_NAME
-  );
+  const newEntries = missing.map((name) => `      - ${name}`).join("\n");
 
-  if (!uncategorized) {
-    uncategorized = {
-      name: UNCATEGORIZED_NAME,
-      emoji: UNCATEGORIZED_EMOJI,
-      repos: [],
-    };
-    config.categories.push(uncategorized);
+  let yamlText = configText.trimEnd();
+
+  if (yamlText.includes(`name: ${UNCATEGORIZED_NAME}`)) {
+    // Append to existing Uncategorized section
+    yamlText = yamlText + "\n" + newEntries + "\n";
+  } else {
+    // Add new Uncategorized section
+    yamlText =
+      yamlText +
+      "\n" +
+      `\n  - name: ${UNCATEGORIZED_NAME}` +
+      `\n    emoji: "${UNCATEGORIZED_EMOJI}"` +
+      `\n    repos:` +
+      "\n" +
+      newEntries +
+      "\n";
   }
 
-  uncategorized.repos.push(...missing);
-
-  await Deno.writeTextFile(YAML_PATH, stringify(config));
+  await Deno.writeTextFile(YAML_PATH, yamlText);
   console.log(
     `\nUpdated repos.yaml — move repos from "${UNCATEGORIZED_NAME}" to the right category.`
   );

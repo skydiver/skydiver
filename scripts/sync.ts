@@ -3,6 +3,10 @@
 /**
  * Generates README.md from README.base.md + repos.yaml + live GitHub data.
  *
+ * The base template uses placeholders:
+ *   {{REPOS}}         → tables for normal categories
+ *   {{HALL_OF_FAME}}  → tables for collapsed categories
+ *
  * Usage: deno run --allow-run --allow-read --allow-write scripts/sync.ts
  */
 
@@ -12,6 +16,7 @@ interface Category {
   name: string;
   emoji: string;
   repos: string[];
+  collapsed?: boolean;
 }
 
 interface Config {
@@ -53,10 +58,11 @@ async function fetchRepoMetadata(): Promise<Map<string, RepoMeta>> {
 function generateTable(
   category: Category,
   owner: string,
-  metadata: Map<string, RepoMeta>
+  metadata: Map<string, RepoMeta>,
+  headingLevel: string
 ): string {
   const lines: string[] = [
-    `## ${category.name}`,
+    `${headingLevel} ${category.name}`,
     "",
     "| | Project | Description | Language |",
     "|---|---------|-------------|----------|",
@@ -77,7 +83,7 @@ function generateTable(
 
 async function main() {
   const config = parse(await Deno.readTextFile(YAML_PATH)) as Config;
-  const base = (await Deno.readTextFile(BASE_PATH)).trimEnd();
+  const base = await Deno.readTextFile(BASE_PATH);
   const metadata = await fetchRepoMetadata();
 
   const missing: string[] = [];
@@ -96,15 +102,24 @@ async function main() {
     }
   }
 
-  const tables = config.categories.map((c) =>
-    generateTable(c, config.owner, metadata)
-  );
+  const normal = config.categories.filter((c) => !c.collapsed);
+  const collapsed = config.categories.filter((c) => c.collapsed);
 
-  const readme = [base, ...tables].join("\n\n") + "\n";
+  const reposContent = normal
+    .map((c) => generateTable(c, config.owner, metadata, "##"))
+    .join("\n\n");
+
+  const hallOfFameContent = collapsed
+    .map((c) => generateTable(c, config.owner, metadata, "###"))
+    .join("\n\n");
+
+  const readme = base
+    .replace("{{REPOS}}", reposContent)
+    .replace("{{HALL_OF_FAME}}", hallOfFameContent);
 
   await Deno.writeTextFile(OUTPUT_PATH, readme);
   console.log(
-    `Generated README.md with ${config.categories.length} categories`
+    `Generated README.md with ${config.categories.length} categories (${normal.length} normal, ${collapsed.length} collapsed)`
   );
 }
 

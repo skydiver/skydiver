@@ -5,3 +5,16 @@
 🌐 [skydiver.dev](https://skydiver.dev)
 
 Building CLI tools, developer utilities, and open source libraries. Mostly TypeScript, JavaScript, and lately some Rust. Big fan of terminal workflows and automation.
+
+---
+
+{{REPOS}}
+
+---
+
+<details>
+<summary><h2>🏛️ Hall of Fame</h2></summary>
+
+{{HALL_OF_FAME}}
+
+</details>

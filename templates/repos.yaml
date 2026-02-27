@@ -64,6 +64,7 @@ categories:
 
   - name: Laravel Ecosystem
     emoji: "🔴"
+    collapsed: true
     repos:
       - laravel-fortify-demo
       - laravel-dashboard-npm
@@ -81,6 +82,7 @@ categories:
 
   - name: OctoberCMS & WinterCMS
     emoji: "🍂"
+    collapsed: true
     repos:
       - october-plugin-ssologin
       - october-plugin-gitreposmanager
