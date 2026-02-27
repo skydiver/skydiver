@@ -8,14 +8,19 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 ---
 
+## Desktop Apps
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 🖥️ | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
+| 🖥️ | [CodeAnywhere-Desktop](https://github.com/skydiver/CodeAnywhere-Desktop) | CodeAnywhere desktop client | JavaScript |
+
 ## Developer Tools & CLIs
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
-| 🔧 | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
 | 🔧 | [downloadstation-cli](https://github.com/skydiver/downloadstation-cli) | Manage your Synology Download Station from your terminal | JavaScript |
 | 🔧 | [btt-helper](https://github.com/skydiver/btt-helper) | Helpers to improve your BetterTouchTool presets" | JavaScript |
-| 🔧 | [CodeAnywhere-Desktop](https://github.com/skydiver/CodeAnywhere-Desktop) | CodeAnywhere desktop client | JavaScript |
 | 🔧 | [androidtv-remote-cli](https://github.com/skydiver/androidtv-remote-cli) | Android TV remote control CLI | TypeScript |
 | 🔧 | [freshly](https://github.com/skydiver/freshly) | A fast, terminal-based update checker for macOS applications | Rust |
 | 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
