@@ -62,19 +62,6 @@ categories:
   - name: Web Starters & Templates
     emoji: '🌐'
     repos:
-      - vue-tailwind-components
-      - telegram-express-bot
-      - nextjs-paypal-integration
-      - nuxt-electron
-      - nextjs-typescript-starter
-      - nextjs-mailgun-uploads
-      - node-cli-template
-      - next-tailwindcss
-      - nuxt-coreui
-      - api-jwt-demo
-      - node-starter-template
-      - node-starter
-      - nuxt-semantic-starter
       - cloudflare-worker-example
       - remix-typescript-starter
       - nextjs-jotai-demo
@@ -219,3 +206,16 @@ categories:
       - javascript-helpers
       - faunadb-wrap
       - firestore-import
+      - vue-tailwind-components
+      - telegram-express-bot
+      - nextjs-paypal-integration
+      - nuxt-electron
+      - nextjs-typescript-starter
+      - nextjs-mailgun-uploads
+      - node-cli-template
+      - next-tailwindcss
+      - nuxt-coreui
+      - api-jwt-demo
+      - node-starter-template
+      - node-starter
+      - nuxt-semantic-starter

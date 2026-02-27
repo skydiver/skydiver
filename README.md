@@ -78,19 +78,6 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
-| 🌐 | [vue-tailwind-components](https://github.com/skydiver/vue-tailwind-components) | Tailwind CSS components for Vue.js | JavaScript |
-| 🌐 | [telegram-express-bot](https://github.com/skydiver/telegram-express-bot) | Spin a Telegram bot in seconds using Telegraf + Express | JavaScript |
-| 🌐 | [nextjs-paypal-integration](https://github.com/skydiver/nextjs-paypal-integration) | Next.js + PayPal integration example | JavaScript |
-| 🌐 | [nuxt-electron](https://github.com/skydiver/nuxt-electron) | Nuxt.js + Electron starter template | JavaScript |
-| 🌐 | [nextjs-typescript-starter](https://github.com/skydiver/nextjs-typescript-starter) | Next.js starter template with TypeScript + TailwindCSS | JavaScript |
-| 🌐 | [nextjs-mailgun-uploads](https://github.com/skydiver/nextjs-mailgun-uploads) | Next.js + File Upload + Mailgun | JavaScript |
-| 🌐 | [node-cli-template](https://github.com/skydiver/node-cli-template) | Starter template for your node cli applications | JavaScript |
-| 🌐 | [next-tailwindcss](https://github.com/skydiver/next-tailwindcss) | Next.js + Tailwind CSS | JavaScript |
-| 🌐 | [nuxt-coreui](https://github.com/skydiver/nuxt-coreui) | Nuxt.js + CoreUI | Vue |
-| 🌐 | [api-jwt-demo](https://github.com/skydiver/api-jwt-demo) | Express API using JWT | JavaScript |
-| 🌐 | [node-starter-template](https://github.com/skydiver/node-starter-template) | Node + Express + MongoDB | JavaScript |
-| 🌐 | [node-starter](https://github.com/skydiver/node-starter) | My starter for Node.js projects | JavaScript |
-| 🌐 | [nuxt-semantic-starter](https://github.com/skydiver/nuxt-semantic-starter) | Nuxt.js starter using Semantic UI | JavaScript |
 | 🌐 | [cloudflare-worker-example](https://github.com/skydiver/cloudflare-worker-example) | Cloudflare + Worker + Webpack + multiple routes | JavaScript |
 | 🌐 | [remix-typescript-starter](https://github.com/skydiver/remix-typescript-starter) | Remix starter template with TypeScript + Tailwind CSS | TypeScript |
 | 🌐 | [nextjs-jotai-demo](https://github.com/skydiver/nextjs-jotai-demo) |  | JavaScript |
