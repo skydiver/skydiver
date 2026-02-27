@@ -99,8 +99,12 @@ categories:
       - react-starter-template
       - demo-jest-nock
 
+  ################################################################################
+  # Docker & Infra
+  ################################################################################
   - name: Docker & Infrastructure
     emoji: '🐳'
+    hidden: true
     repos:
       - docker-compose-lamp
       - docker-compose-laravel
@@ -174,6 +178,7 @@ categories:
 
   - name: Misc
     emoji: '📦'
+    collapsed: true
     repos:
       - nodebb-plugin-code-autologin
 

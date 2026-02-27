@@ -115,26 +115,6 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🌐 | [react-starter-template](https://github.com/skydiver/react-starter-template) | My first React starter template. Good memories 🤭 | JavaScript |
 | 🌐 | [demo-jest-nock](https://github.com/skydiver/demo-jest-nock) | Demo project to use Nock with Jest | JavaScript |
 
-## Docker & Infrastructure
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🐳 | [docker-compose-lamp](https://github.com/skydiver/docker-compose-lamp) | LAMP Docker container | Shell |
-| 🐳 | [docker-compose-laravel](https://github.com/skydiver/docker-compose-laravel) |  | Shell |
-| 🐳 | [docker-compose-laravel2](https://github.com/skydiver/docker-compose-laravel2) |  |  |
-| 🐳 | [docker-compose-lamp-multi-php](https://github.com/skydiver/docker-compose-lamp-multi-php) |  | Dockerfile |
-| 🐳 | [docker-node-pm2](https://github.com/skydiver/docker-node-pm2) | Docker / node / PM2 |  |
-| 🐳 | [docker-varnish-demo](https://github.com/skydiver/docker-varnish-demo) | A docker demo of varnish + apache | Perl |
-| 🐳 | [docker-shipyard-demo](https://github.com/skydiver/docker-shipyard-demo) | Docker + Shipyard | (c) |  |
-| 🐳 | [vagrant-dev-machine](https://github.com/skydiver/vagrant-dev-machine) | Just a Vagrant development machine |  |
-| 🐳 | [codespaces-demo](https://github.com/skydiver/codespaces-demo) | GitHub Codespaces Playground |  |
-
-## Misc
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 📦 | [nodebb-plugin-code-autologin](https://github.com/skydiver/nodebb-plugin-code-autologin) | Autologin for NodeBB validating a code with an endpoint | JavaScript |
-
 ---
 
 <details>
@@ -196,5 +176,11 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🍂 | [october-theme-flex](https://github.com/skydiver/october-theme-flex) |  | JavaScript |
 | 🍂 | [october-theme-materialize-parallax](https://github.com/skydiver/october-theme-materialize-parallax) | Materialize Parallax template for OctoberCMS. | JavaScript |
 | 🍂 | [docker-octobercms](https://github.com/skydiver/docker-octobercms) | Docker development container for OctoberCMS | PHP |
+
+### Misc
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 📦 | [nodebb-plugin-code-autologin](https://github.com/skydiver/nodebb-plugin-code-autologin) | Autologin for NodeBB validating a code with an endpoint | JavaScript |
 
 </details>
