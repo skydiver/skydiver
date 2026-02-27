@@ -74,34 +74,6 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🏆 | [nuxt-tailwind-admin](https://github.com/skydiver/nuxt-tailwind-admin) | Nuxt.js + Tailwind CSS Admin starter | Vue |
 | 🏆 | [vilt-stack](https://github.com/skydiver/vilt-stack) | Vue.js + Inertia.js + Laravel + Tailwind CSS | PHP |
 
-## Web Starters & Templates
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🌐 | [cloudflare-worker-example](https://github.com/skydiver/cloudflare-worker-example) | Cloudflare + Worker + Webpack + multiple routes | JavaScript |
-| 🌐 | [remix-typescript-starter](https://github.com/skydiver/remix-typescript-starter) | Remix starter template with TypeScript + Tailwind CSS | TypeScript |
-| 🌐 | [nextjs-jotai-demo](https://github.com/skydiver/nextjs-jotai-demo) |  | JavaScript |
-| 🌐 | [nextjs-upload-csv](https://github.com/skydiver/nextjs-upload-csv) | Demo for Next.js + CSV File Upload | JavaScript |
-| 🌐 | [preset-cypress](https://github.com/skydiver/preset-cypress) | Apply a Cypress preset to you Node project | JavaScript |
-| 🌐 | [preset-nextjs](https://github.com/skydiver/preset-nextjs) | Next.js + ESLint + Prettier | JavaScript |
-| 🌐 | [preset-nodejs](https://github.com/skydiver/preset-nodejs) | My highly opinionated preset for Node projects | JavaScript |
-| 🌐 | [vue-tailwindcss-components](https://github.com/skydiver/vue-tailwindcss-components) | Personal collection of Vue TailwindCSS components | JavaScript |
-| 🌐 | [nextjs-electron](https://github.com/skydiver/nextjs-electron) | Next.js + Electron starter template | JavaScript |
-| 🌐 | [nuxt-tailwind-dashboard](https://github.com/skydiver/nuxt-tailwind-dashboard) | Nuxt.js + Tailwind CSS dashboard starter | JavaScript |
-| 🌐 | [react-custom-starter](https://github.com/skydiver/react-custom-starter) | My personal starter for Node/React projects |  |
-| 🌐 | [react-context-api](https://github.com/skydiver/react-context-api) | My implementation of React Context API | JavaScript |
-| 🌐 | [now-telegram-bot](https://github.com/skydiver/now-telegram-bot) | Basic Telegram bot running on now.sh | JavaScript |
-| 🌐 | [nuxt-bulma-admin](https://github.com/skydiver/nuxt-bulma-admin) | Nuxt.js/Bulma admin template | Vue |
-| 🌐 | [gatsby-starter](https://github.com/skydiver/gatsby-starter) | My Gatsby starter | JavaScript |
-| 🌐 | [now-mailgun-sender](https://github.com/skydiver/now-mailgun-sender) | Lambda function to send form emails using NOW & MAILGUN | JavaScript |
-| 🌐 | [demo-chrome-facedetector](https://github.com/skydiver/demo-chrome-facedetector) | Experiments using Google Chorme FaceDetector api |  |
-| 🌐 | [react-dashboard-core](https://github.com/skydiver/react-dashboard-core) |  | JavaScript |
-| 🌐 | [firebase-connect-demo](https://github.com/skydiver/firebase-connect-demo) | Demo on how to connect to firebase using node | JavaScript |
-| 🌐 | [netlify-lambda-demo](https://github.com/skydiver/netlify-lambda-demo) | Use lambda functions on Netlify | CSS |
-| 🌐 | [node-react-starter-template](https://github.com/skydiver/node-react-starter-template) | My ERN starter template - Express, React, Node | JavaScript |
-| 🌐 | [react-starter-template](https://github.com/skydiver/react-starter-template) | My first React starter template. Good memories 🤭 | JavaScript |
-| 🌐 | [demo-jest-nock](https://github.com/skydiver/demo-jest-nock) | Demo project to use Nock with Jest | JavaScript |
-
 ---
 
 <details>
