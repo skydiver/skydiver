@@ -1,0 +1,176 @@
+owner: skydiver
+
+categories:
+  - name: Developer Tools & CLIs
+    emoji: "🔧"
+    repos:
+      - mermaidjs-desktop-client
+      - downloadstation-cli
+      - btt-helper
+      - CodeAnywhere-Desktop
+      - androidtv-remote-cli
+      - freshly
+      - db-restore
+      - typescript-starter
+      - software-vault-2
+      - 2fa-cli
+      - uptime-robot-cli
+      - vercel-deployments-cleanup
+
+  - name: Claude Code Ecosystem
+    emoji: "🤖"
+    repos:
+      - claude-code-project-mover
+      - claude-plans-organizer
+      - claude-code-archiver
+      - claude-code-statusline
+
+  - name: Alfred & Raycast Workflows
+    emoji: "🎩"
+    repos:
+      - alfred-browsers-profiles
+      - alfred-setapp
+      - alfred-network-drives
+      - alfred-chrome-profiles
+      - alfred-vercel
+      - alfred-nextjs-docs
+      - alfred-tower
+      - alfred-pretty-sql
+      - alfred-password-generator
+      - alfred-workflows
+      - raycast-browsers-profiles
+
+  - name: Libraries & Packages
+    emoji: "📦"
+    repos:
+      - newton-cache
+      - obsidian-image-grid
+      - javascript-helpers
+      - faunadb-wrap
+      - nodebb-plugin-code-autologin
+      - firestore-import
+
+  - name: Outstanding Legacy
+    emoji: "🏆"
+    repos:
+      - ewelink-api
+      - laravel-route-blocker
+      - nextjs-semantic
+      - october-plugin-forms
+      - laravel-materialize-css
+      - wn-forms-plugin
+      - nuxt-tailwind-admin
+      - vilt-stack
+
+  - name: Laravel Ecosystem
+    emoji: "🔴"
+    repos:
+      - laravel-fortify-demo
+      - laravel-dashboard-npm
+      - laravel-flysystem-b2
+      - laravel-check-updates
+      - blade-icons-remix
+      - laravel-dashboard-packagist
+      - rapyd-dashboard
+      - laravel-helpers
+      - laravel-vue-starter
+      - tall-stack
+      - nova-update-card
+      - nova-cached-images
+      - laravel-composer
+
+  - name: OctoberCMS & WinterCMS
+    emoji: "🍂"
+    repos:
+      - october-plugin-ssologin
+      - october-plugin-gitreposmanager
+      - october-plugin-adminer
+      - october-plugin-ssbuttons
+      - october-plugin-cliusersmanagement
+      - october-theme-blank-angular
+      - october-plugin-bloggallery
+      - october-plugin-formsextender
+      - october-plugin-routes
+      - october-plugin-backups
+      - october-plugin-quotes
+      - october-plugin-sentryerrorlogger
+      - october-plugin-simplegoogleanalytics
+      - october-plugin-monitorclient
+      - october-plugin-tntsearch
+      - october-plugin-twig-helpers
+      - october-plugin-strings
+      - october-plugin-technologies
+      - october-plugin-empty
+      - october-plugin-settings
+      - october-plugin-birthdays
+      - october-plugin-blogrevisions
+      - october-plugin-blog-categories-images
+      - october-plugin-blog-new-post
+      - october-plugin-errorloggererrbit
+      - october-theme-arcana
+      - october-theme-blank-mdl
+      - october-theme-new-event
+      - october-theme-blank-materialize
+      - october-theme-jquery-mobile
+      - october-theme-easy-profile
+      - october-theme-flex
+      - october-theme-materialize-parallax
+      - docker-octobercms
+
+  - name: Web Starters & Templates
+    emoji: "🌐"
+    repos:
+      - vue-tailwind-components
+      - telegram-express-bot
+      - nextjs-paypal-integration
+      - nuxt-electron
+      - nextjs-typescript-starter
+      - nextjs-mailgun-uploads
+      - node-cli-template
+      - next-tailwindcss
+      - nuxt-coreui
+      - api-jwt-demo
+      - node-starter-template
+      - node-starter
+      - nuxt-semantic-starter
+      - cloudflare-worker-example
+      - remix-typescript-starter
+      - nextjs-jotai-demo
+      - nextjs-upload-csv
+      - preset-cypress
+      - preset-nextjs
+      - preset-nodejs
+      - vue-tailwindcss-components
+      - nextjs-electron
+      - nuxt-tailwind-dashboard
+      - react-custom-starter
+      - react-context-api
+      - now-telegram-bot
+      - nuxt-bulma-admin
+      - gatsby-starter
+      - now-mailgun-sender
+      - demo-chrome-facedetector
+      - react-dashboard-core
+      - firebase-connect-demo
+      - netlify-lambda-demo
+      - node-react-starter-template
+      - react-starter-template
+      - demo-jest-nock
+
+  - name: Docker & Infrastructure
+    emoji: "🐳"
+    repos:
+      - docker-compose-lamp
+      - docker-compose-laravel
+      - docker-compose-laravel2
+      - docker-compose-lamp-multi-php
+      - docker-node-pm2
+      - docker-varnish-demo
+      - docker-shipyard-demo
+      - vagrant-dev-machine
+      - codespaces-demo
+
+  - name: Uncategorized
+    emoji: "❓"
+    repos:
+      - test-repo
