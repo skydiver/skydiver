@@ -18,6 +18,7 @@ categories:
   - name: Claude Code Ecosystem
     emoji: '🤖'
     repos:
+      - claude-brain
       - claude-code-project-mover
       - claude-plans-organizer
       - claude-code-archiver
@@ -220,3 +221,5 @@ categories:
       - javascript-helpers
       - faunadb-wrap
       - firestore-import
+      - skydiver
+      - homebrew-freshly
