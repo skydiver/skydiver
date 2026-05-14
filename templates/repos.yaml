@@ -4,9 +4,12 @@ categories:
   - name: Developer Tools
     emoji: '🔧'
     repos:
+      - GhostCode
+      - steward-mcp
       - typescript-starter
       - mermaidjs-desktop-client
       - db-restore
+      - pi-statusline
 
   - name: CLI Tools
     emoji: '💻'
