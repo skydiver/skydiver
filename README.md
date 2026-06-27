@@ -31,11 +31,12 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
-| 🤖 | [claude-brain](https://github.com/skydiver/claude-brain) | A persistent knowledge store for Claude Code — SQLite + MCP server + Tauri desktop app | Rust |
 | 🤖 | [claude-code-project-mover](https://github.com/skydiver/claude-code-project-mover) | Bash script to update Claude Code's project references after moving a folder to a new path | Shell |
+| 🤖 | [claude-brain](https://github.com/skydiver/claude-brain) | A persistent knowledge store for Claude Code — SQLite + MCP server + Tauri desktop app | Rust |
+| 🤖 | [claude-code-statusline](https://github.com/skydiver/claude-code-statusline) | Custom statusline script showing real-time rate limits and usage metrics | Rust |
+| 🤖 | [claude-sdd-team](https://github.com/skydiver/claude-sdd-team) | Multi-agent SDD team for Claude Code — an opt-in /sdd orchestrator coordinating six specialist subagents (explorer, documentator, planner, implementer, tester-reviewer, hacker). |  |
 | 🤖 | [claude-plans-organizer](https://github.com/skydiver/claude-plans-organizer) | CLI utility that copies Claude Code plan files to a destination with meaningful LLM-generated names | TypeScript |
 | 🤖 | [claude-code-archiver](https://github.com/skydiver/claude-code-archiver) | A TUI app to archive old Claude Code conversations and free up disk space | JavaScript |
-| 🤖 | [claude-code-statusline](https://github.com/skydiver/claude-code-statusline) | Custom statusline script showing real-time rate limits and usage metrics | Rust |
 
 ## Alfred & Raycast Workflows
 
@@ -48,23 +49,26 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🎩 | [alfred-workflows](https://github.com/skydiver/alfred-workflows) | A collection of my personally crafted Alfred workflows, designed to streamline productivity and automate everyday tasks with efficiency and precision. | TypeScript |
 | 🎩 | [raycast-browsers-profiles](https://github.com/skydiver/raycast-browsers-profiles) | Access your browsers profiles from Raycast | TypeScript |
 
+## Plugins & Extensions
+
+| | Project | Description | Language |
+|---|---------|-------------|----------|
+| 🔌 | [obsidian-image-grid](https://github.com/skydiver/obsidian-image-grid) | Obsidian plugin that renders images in a CSS grid layout | TypeScript |
+| 🔌 | [obsidian-cycle-view-mode](https://github.com/skydiver/obsidian-cycle-view-mode) | Cycle through Reading, Live Preview, and Source Mode in Obsidian — status bar button, command, and hotkey | TypeScript |
+| 🔌 | [obsidian-table-enhancements](https://github.com/skydiver/obsidian-table-enhancements) | Per-table enhancements for Obsidian markdown tables — hover row highlight and clickable checkboxes, opt-in via a marker comment | TypeScript |
+| 🔌 | [obsidian-toggle-full-width](https://github.com/skydiver/obsidian-toggle-full-width) | One-click full-width toggle for Obsidian notes — status bar button, command, and configurable width | TypeScript |
+
 ## Libraries & Packages
 
 | | Project | Description | Language |
 |---|---------|-------------|----------|
 | 📦 | [newton-cache](https://github.com/skydiver/newton-cache) | Lightweight cache library with pluggable adapters. Zero dependencies, TTL support, TypeScript-first | TypeScript |
 
-## Plugins & Extensions
-
-| | Project | Description | Language |
-|---|---------|-------------|----------|
-| 🔌 | [obsidian-image-grid](https://github.com/skydiver/obsidian-image-grid) | Obsidian plugin that renders images in a CSS grid layout | TypeScript |
-
 ## Outstanding Legacy
 
 | | Project | Description | Language | ⭐ |
 |---|---------|-------------|----------|---:|
-| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript | 284 |
+| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript | 283 |
 | 🏆 | [laravel-route-blocker](https://github.com/skydiver/laravel-route-blocker) | Block routes by IP | PHP | 81 |
 | 🏆 | [nextjs-semantic](https://github.com/skydiver/nextjs-semantic) | Next.js + Fomantic-UI + Styled Components | JavaScript | 67 |
 | 🏆 | [october-plugin-forms](https://github.com/skydiver/october-plugin-forms) | Create easy (and almost magic) AJAX forms | PHP | 60 |

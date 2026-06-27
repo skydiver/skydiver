@@ -21,11 +21,12 @@ categories:
   - name: Claude Code Ecosystem
     emoji: '🤖'
     repos:
-      - claude-brain
       - claude-code-project-mover
+      - claude-brain
+      - claude-code-statusline
+      - claude-sdd-team
       - claude-plans-organizer
       - claude-code-archiver
-      - claude-code-statusline
 
   - name: Alfred & Raycast Workflows
     emoji: '🎩'
@@ -37,15 +38,18 @@ categories:
       - alfred-workflows
       - raycast-browsers-profiles
 
-  - name: Libraries & Packages
-    emoji: '📦'
-    repos:
-      - newton-cache
-
   - name: Plugins & Extensions
     emoji: '🔌'
     repos:
       - obsidian-image-grid
+      - obsidian-cycle-view-mode
+      - obsidian-table-enhancements
+      - obsidian-toggle-full-width
+
+  - name: Libraries & Packages
+    emoji: '📦'
+    repos:
+      - newton-cache
 
   - name: Outstanding Legacy
     emoji: '🏆'
