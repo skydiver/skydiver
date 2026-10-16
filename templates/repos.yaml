@@ -10,6 +10,7 @@ categories:
       - mermaidjs-desktop-client
       - db-restore
       - pi-statusline
+      - herdr-pinned-workspaces
 
   - name: CLI Tools
     emoji: '💻'
@@ -230,3 +231,4 @@ categories:
       - firestore-import
       - skydiver
       - homebrew-freshly
+      - lamp-indicator

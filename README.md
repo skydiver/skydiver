@@ -18,6 +18,7 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 | 🔧 | [mermaidjs-desktop-client](https://github.com/skydiver/mermaidjs-desktop-client) | Desktop editor for Mermaid diagrams with real-time preview, syntax highlighting, and SVG/PNG export | TypeScript |
 | 🔧 | [db-restore](https://github.com/skydiver/db-restore) | Database backup & restore for local development | TypeScript |
 | 🔧 | [pi-statusline](https://github.com/skydiver/pi-statusline) | Custom compact statusline footer for pi. | TypeScript |
+| 🔧 | [herdr-pinned-workspaces](https://github.com/skydiver/herdr-pinned-workspaces) | A Herdr plugin that keeps declared workspaces alive. | Python |
 
 ## CLI Tools
 
@@ -68,14 +69,14 @@ Building CLI tools, developer utilities, and open source libraries. Mostly TypeS
 
 | | Project | Description | Language | ⭐ |
 |---|---------|-------------|----------|---:|
-| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript | 283 |
+| 🏆 | [ewelink-api](https://github.com/skydiver/ewelink-api) | eWeLink API for JavaScript | JavaScript | 286 |
 | 🏆 | [laravel-route-blocker](https://github.com/skydiver/laravel-route-blocker) | Block routes by IP | PHP | 81 |
-| 🏆 | [nextjs-semantic](https://github.com/skydiver/nextjs-semantic) | Next.js + Fomantic-UI + Styled Components | JavaScript | 67 |
+| 🏆 | [nextjs-semantic](https://github.com/skydiver/nextjs-semantic) | Next.js + Fomantic-UI + Styled Components | JavaScript | 66 |
 | 🏆 | [october-plugin-forms](https://github.com/skydiver/october-plugin-forms) | Create easy (and almost magic) AJAX forms | PHP | 60 |
-| 🏆 | [laravel-materialize-css](https://github.com/skydiver/laravel-materialize-css) | Materialize CSS Framework for Laravel 5  | PHP | 45 |
+| 🏆 | [laravel-materialize-css](https://github.com/skydiver/laravel-materialize-css) | Materialize CSS Framework for Laravel 5  | PHP | 44 |
 | 🏆 | [wn-forms-plugin](https://github.com/skydiver/wn-forms-plugin) | Create easy (and almost magic) forms | PHP | 21 |
 | 🏆 | [nuxt-tailwind-admin](https://github.com/skydiver/nuxt-tailwind-admin) | Nuxt.js + Tailwind CSS Admin starter | Vue | 18 |
-| 🏆 | [vilt-stack](https://github.com/skydiver/vilt-stack) | Vue.js + Inertia.js + Laravel + Tailwind CSS | PHP | 14 |
+| 🏆 | [vilt-stack](https://github.com/skydiver/vilt-stack) | Vue.js + Inertia.js + Laravel + Tailwind CSS | PHP | 13 |
 
 ---
 
